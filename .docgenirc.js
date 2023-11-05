@@ -20,11 +20,12 @@ module.exports = {
             name: 'test-lib',
             rootDir: 'projects/test-lib',
             include: [
-                'src',
                 'src/components',
+                'src',
             ],
             exclude: [
-                'src/exclude'
+                'schematics',
+                'exclude'
             ],
             apiMode: 'automatic',
             categories: []
